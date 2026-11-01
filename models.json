@@ -36,12 +36,6 @@
       "name": "example_diffusion_model.safetensors",
       "url": "https://huggingface.co/用户名/仓库名/resolve/main/example_diffusion_model.safetensors",
       "folder": "diffusion_models"
-    },
-    {
-      "enabled": false,
-      "name": "example_upscale.pth",
-      "url": "https://huggingface.co/用户名/仓库名/resolve/main/example_upscale.pth",
-      "folder": "upscale_models"
     }
   ]
 }
