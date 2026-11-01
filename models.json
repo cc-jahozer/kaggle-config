@@ -30,6 +30,12 @@
       "name": "example_text_encoder.safetensors",
       "url": "https://huggingface.co/用户名/仓库名/resolve/main/example_text_encoder.safetensors",
       "folder": "text_encoders"
+    },
+    {
+  "enabled": true,
+  "name": "v1-5-pruned-emaonly.safetensors",
+  "url": "https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.safetensors",
+  "folder": "checkpoints"
     }
   ]
 }
