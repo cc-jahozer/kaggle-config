@@ -30,12 +30,6 @@
       "name": "example_text_encoder.safetensors",
       "url": "https://huggingface.co/用户名/仓库名/resolve/main/example_text_encoder.safetensors",
       "folder": "text_encoders"
-    },
-    {
-      "enabled": false,
-      "name": "example_diffusion_model.safetensors",
-      "url": "https://huggingface.co/用户名/仓库名/resolve/main/example_diffusion_model.safetensors",
-      "folder": "diffusion_models"
     }
   ]
 }
