@@ -36,6 +36,18 @@
   "name": "v1-5-pruned-emaonly.safetensors",
   "url": "https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.safetensors",
   "folder": "checkpoints"
-    }
+    },
+    {
+  "enabled": true,
+  "name": "vae-ft-mse-840000-ema-pruned.safetensors",
+  "url": "https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.safetensors",
+  "folder": "vae"
+},
+{
+  "enabled": true,
+  "name": "ghibli_style_offset.safetensors",
+  "url": "https://huggingface.co/rehanhaider/sd-loras/resolve/main/ghibli_style_offset.safetensors",
+  "folder": "loras"
+}
   ]
 }
