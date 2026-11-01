@@ -4,7 +4,7 @@
       "name": "模型文件名.safetensors",
       "url": "模型下载直链",
       "folder": "checkpoints",
-      "enabled": true
+      "enabled": false
     }
   ]
 }
