@@ -1,10 +1,47 @@
+
 {
   "models": [
     {
-      "name": "模型文件名.safetensors",
-      "url": "模型下载直链",
-      "folder": "checkpoints",
-      "enabled": false
+      "enabled": false,
+      "name": "example_checkpoint.safetensors",
+      "url": "https://huggingface.co/用户名/仓库名/resolve/main/example_checkpoint.safetensors",
+      "folder": "checkpoints"
+    },
+    {
+      "enabled": false,
+      "name": "example_lora.safetensors",
+      "url": "https://huggingface.co/用户名/仓库名/resolve/main/example_lora.safetensors",
+      "folder": "loras"
+    },
+    {
+      "enabled": false,
+      "name": "example_vae.safetensors",
+      "url": "https://huggingface.co/用户名/仓库名/resolve/main/example_vae.safetensors",
+      "folder": "vae"
+    },
+    {
+      "enabled": false,
+      "name": "example_controlnet.safetensors",
+      "url": "https://huggingface.co/用户名/仓库名/resolve/main/example_controlnet.safetensors",
+      "folder": "controlnet"
+    },
+    {
+      "enabled": false,
+      "name": "example_text_encoder.safetensors",
+      "url": "https://huggingface.co/用户名/仓库名/resolve/main/example_text_encoder.safetensors",
+      "folder": "text_encoders"
+    },
+    {
+      "enabled": false,
+      "name": "example_diffusion_model.safetensors",
+      "url": "https://huggingface.co/用户名/仓库名/resolve/main/example_diffusion_model.safetensors",
+      "folder": "diffusion_models"
+    },
+    {
+      "enabled": false,
+      "name": "example_upscale.pth",
+      "url": "https://huggingface.co/用户名/仓库名/resolve/main/example_upscale.pth",
+      "folder": "upscale_models"
     }
   ]
 }
