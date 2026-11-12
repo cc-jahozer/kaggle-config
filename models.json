@@ -1,11 +1,11 @@
 
 {
   "models": [
-    {
+   {
       "enabled": true,
       "name": "z_image_turbo_bf16.safetensors",
-      "url": "https://huggingface.co/Comfy-Org/z_image_turbo/blob/main/split_files/diffusion_models/z_image_turbo_bf16.safetensors",
-      "folder": "checkpoints"
+      "url": "https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/diffusion_models/z_image_turbo_bf16.safetensors",
+      "folder": "diffusion_models"
     },
     {
       "enabled": true,
@@ -22,7 +22,7 @@
     {
       "enabled": true,
       "name": "ae.safetensors",
-      "url": "https://huggingface.co/Comfy-Org/z_image_turbo/blob/main/split_files/vae/ae.safetensors",
+      "url": "https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/vae/ae.safetensors",
       "folder": "vae"
     },
     {
@@ -34,7 +34,7 @@
     {
       "enabled": true,
       "name": "qwen_3_4b.safetensors",
-      "url": "https://huggingface.co/Comfy-Org/z_image_turbo/blob/main/split_files/text_encoders/qwen_3_4b.safetensors",
+      "url": "https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/text_encoders/qwen_3_4b.safetensors",
       "folder": "text_encoders"
     }
   ]
