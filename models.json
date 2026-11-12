@@ -3,9 +3,24 @@
   "models": [
    {
       "enabled": true,
+      "comment": "Z-Image-Turbo（主模型FP8）",
       "name": "Z-Image-Turbo-transformer-fp8_e4m3fn.safetensors",
       "url": "https://huggingface.co/axteam/Z-Image-Turbo-FP8/resolve/main/Z-Image-Turbo-transformer-fp8_e4m3fn.safetensors",
       "folder": "diffusion_models"
+    },
+    {
+      "enabled": true,
+      "comment": "Z-Image-Turbo（vae）",
+      "name": "ae.safetensors",
+      "url": "https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/vae/ae.safetensors",
+      "folder": "vae"
+    },
+    {
+      "enabled": true,
+      "comment": "Z-Image-Turbo（文本模型FP8）",
+      "name": "qwen_3_4b_fp8_mixed.safetensors",
+      "url": "https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/text_encoders/qwen_3_4b_fp8_mixed.safetensors",
+      "folder": "text_encoders"
     },
     {
       "enabled": false,
@@ -14,22 +29,11 @@
       "folder": "loras"
     },
     {
-      "enabled": true,
-      "name": "ae.safetensors",
-      "url": "https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/vae/ae.safetensors",
-      "folder": "vae"
-    },
-    {
       "enabled": false,
       "name": "example_controlnet.safetensors",
       "url": "https://huggingface.co/用户名/仓库名/resolve/main/example_controlnet.safetensors",
       "folder": "controlnet"
-    },
-    {
-      "enabled": true,
-      "name": "qwen_3_4b_fp8_mixed.safetensors",
-      "url": "https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/text_encoders/qwen_3_4b_fp8_mixed.safetensors",
-      "folder": "text_encoders"
     }
+
   ]
     }
