@@ -3,21 +3,15 @@
   "models": [
    {
       "enabled": true,
-      "name": "z_image_turbo_bf16.safetensors",
-      "url": "https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/diffusion_models/z_image_turbo_bf16.safetensors",
+      "name": "Z-Image-Turbo-transformer-fp8_e4m3fn.safetensors",
+      "url": "https://huggingface.co/axteam/Z-Image-Turbo-FP8/resolve/main/Z-Image-Turbo-transformer-fp8_e4m3fn.safetensors",
       "folder": "diffusion_models"
     },
     {
-      "enabled": true,
+      "enabled": false,
       "name": "ghibli_style_offset.safetensors",
       "url": "https://huggingface.co/rehanhaider/sd-loras/resolve/main/ghibli_style_offset.safetensors",
       "folder": "loras"
-    },
-    {
-      "enabled": true,
-      "name": "vae-ft-mse-840000-ema-pruned.safetensors",
-      "url": "https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.safetensors",
-      "folder": "vae"
     },
     {
       "enabled": true,
@@ -33,8 +27,8 @@
     },
     {
       "enabled": true,
-      "name": "qwen_3_4b.safetensors",
-      "url": "https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/text_encoders/qwen_3_4b.safetensors",
+      "name": "qwen_3_4b_fp8_mixed.safetensors",
+      "url": "https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/text_encoders/qwen_3_4b_fp8_mixed.safetensors",
       "folder": "text_encoders"
     }
   ]
