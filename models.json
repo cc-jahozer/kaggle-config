@@ -2,28 +2,28 @@
 {
   "models": [
    {
-      "enabled": false,
+      "enabled": true,
       "comment": "Z-Image-Turbo（主模型BF16）",
       "name": "z_image_turbo_bf16.safetensors",
       "url": "https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/diffusion_models/z_image_turbo_bf16.safetensors",
       "folder": "diffusion_models"
     },
     {
-      "enabled": false,
+      "enabled": true,
       "comment": "Z-Image-Turbo（VAE）",
       "name": "ae.safetensors",
       "url": "https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/vae/ae.safetensors",
       "folder": "vae"
     },
     {
-      "enabled": false,
+      "enabled": true,
       "comment": "Z-Image-Turbo（文本模型BF16）",
       "name": "qwen_3_4b.safetensors",
       "url": "https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/text_encoders/qwen_3_4b.safetensors",
       "folder": "text_encoders"
     },
     {
-      "enabled": false,
+      "enabled": true,
       "comment": "RealESRGAN_x4plus（4倍超分辨率放大模型）",
       "name": "RealESRGAN_x4plus.safetensors",
       "url": "https://huggingface.co/Comfy-Org/Real-ESRGAN_repackaged/resolve/main/RealESRGAN_x4plus.safetensors",
