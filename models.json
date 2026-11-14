@@ -2,33 +2,63 @@
 {
   "models": [
    {
-      "enabled": true,
+      "enabled": false,
       "comment": "Z-Image-Turbo（主模型BF16）",
       "name": "z_image_turbo_bf16.safetensors",
       "url": "https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/diffusion_models/z_image_turbo_bf16.safetensors",
       "folder": "diffusion_models"
     },
     {
-      "enabled": true,
+      "enabled": false,
       "comment": "Z-Image-Turbo（VAE）",
       "name": "ae.safetensors",
       "url": "https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/vae/ae.safetensors",
       "folder": "vae"
     },
     {
-      "enabled": true,
+      "enabled": false,
       "comment": "Z-Image-Turbo（文本模型BF16）",
       "name": "qwen_3_4b.safetensors",
       "url": "https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/text_encoders/qwen_3_4b.safetensors",
       "folder": "text_encoders"
     },
     {
-      "enabled": true,
+      "enabled": false,
       "comment": "RealESRGAN_x4plus（4倍超分辨率放大模型）",
       "name": "RealESRGAN_x4plus.safetensors",
       "url": "https://huggingface.co/Comfy-Org/Real-ESRGAN_repackaged/resolve/main/RealESRGAN_x4plus.safetensors",
       "folder": "upscale_models"
-    }
+    },
 
+
+
+    {
+      "enabled": true,
+      "comment": "Qwen-Image-2.1（VAE BF16）",
+      "name": "qwen_image_2.1_vae_bf16.safetensors",
+      "url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1/resolve/main/vae/qwen_image_2.1_vae_bf16.safetensors",
+      "folder": "vae"
+    },
+    {
+      "enabled": true,
+      "comment": "Qwen-Image-2.1（Qwen3.5 9B 文本编码器，INT8，图片编辑）",
+      "name": "qwen3.5_9b_qwen_image_2.1_pe_i2i.int8_convrot.safetensors",
+      "url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1/resolve/main/text_encoders/qwen3.5_9b_qwen_image_2.1_pe_i2i.int8_convrot.safetensors",
+      "folder": "text_encoders"
+    },
+    {
+      "enabled": true,
+      "comment": "Qwen-Image-2.1（Qwen3-VL 8B 文本编码器，INT8）",
+      "name": "qwen3vl_8b_int8_convrot.safetensors",
+      "url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1/resolve/main/text_encoders/qwen3vl_8b_int8_convrot.safetensors",
+      "folder": "text_encoders"
+    },
+    {
+      "enabled": true,
+      "comment": "Qwen-Image-2.1 Turbo（主模型 INT8）",
+      "name": "qwen_image_2.1_turbo_int8_convrot.safetensors",
+      "url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1/resolve/main/diffusion_models/qwen_image_2.1_turbo_int8_convrot.safetensors",
+      "folder": "diffusion_models"
+    }
   ]
     }
