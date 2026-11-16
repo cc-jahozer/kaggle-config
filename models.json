@@ -92,7 +92,7 @@
       "folder": "diffusion_models"
     },
     {
-     "enabled": true,
+     "enabled": false,
      "comment": "MiniMax H3（REF2VA 视频生成主模型，INT8）",
      "name": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/diffusion_models/minimax_h3_ref2va_pruned_int8_convrot.safetensors",
