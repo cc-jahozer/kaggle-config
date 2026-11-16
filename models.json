@@ -64,35 +64,35 @@
     
     
     {
-      "enabled": false,
+      "enabled": true,
       "comment": "MiniMax H3（音频 VAE，FP32）",
       "name": "minimax_h3_audio_vae_fp32.safetensors",
       "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/vae/minimax_h3_audio_vae_fp32.safetensors",
       "folder": "vae"
     },
     {
-      "enabled": false,
+      "enabled": true,
       "comment": "MiniMax H3（视频 VAE，FP16）",
       "name": "minimax_h3_video_vae_fp16.safetensors",
       "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/vae/minimax_h3_video_vae_fp16.safetensors",
       "folder": "vae"
     },
     {
-      "enabled": false,
+      "enabled": true,
       "comment": "MiniMax H3（Qwen3-VL 32B 文本编码器，NVFP4-AWQ）",
       "name": "qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
       "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
       "folder": "text_encoders"
     },
     {
-      "enabled": false,
+      "enabled": true,
       "comment": "MiniMax H3（FL2VA 视频生成主模型，INT8）",
       "name": "minimax_h3_fl2va_pruned_int8_convrot.safetensors",
       "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/diffusion_models/minimax_h3_fl2va_pruned_int8_convrot.safetensors",
       "folder": "diffusion_models"
     },
     {
-     "enabled": false,
+     "enabled": true,
      "comment": "MiniMax H3（REF2VA 视频生成主模型，INT8）",
      "name": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/diffusion_models/minimax_h3_ref2va_pruned_int8_convrot.safetensors",
