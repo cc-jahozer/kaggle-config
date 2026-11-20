@@ -23,7 +23,7 @@
       "folder": "text_encoders"
     },
     {
-      "enabled": false,
+      "enabled": true,
       "comment": "RealESRGAN_x4plus（4倍超分辨率放大模型）",
       "name": "RealESRGAN_x4plus.safetensors",
       "url": "https://huggingface.co/Comfy-Org/Real-ESRGAN_repackaged/resolve/main/RealESRGAN_x4plus.safetensors",
