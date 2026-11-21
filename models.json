@@ -83,27 +83,6 @@
       "name": "qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
       "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
       "folder": "text_encoders"
-    },
-    {
-      "enabled": false,
-      "comment": "MiniMax H3（FL2VA 视频生成主模型，INT8）",
-      "name": "minimax_h3_fl2va_pruned_int8_convrot.safetensors",
-      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/diffusion_models/minimax_h3_fl2va_pruned_int8_convrot.safetensors",
-      "folder": "diffusion_models"
-    },
-    {
-     "enabled": false,
-     "comment": "MiniMax H3（REF2VA 视频生成主模型，INT8）",
-     "name": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
-     "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/diffusion_models/minimax_h3_ref2va_pruned_int8_convrot.safetensors",
-     "folder": "diffusion_models"
-    },
-    {
-     "enabled": false,
-     "comment": "MiniMax H3 HyperFlow Flash（FL2VA 视频生成主模型，GGUF Q4_K_M）",
-     "name": "minimax_h3_fl2va_hyperflow_flash_14b-Q4_K_M.gguf",
-     "url": "https://huggingface.co/VideoRebirthAI/hyperflow-h3-flash/resolve/main/fl2va_gguf/minimax_h3_fl2va_hyperflow_flash_14b-Q4_K_M.gguf",
-     "folder": "diffusion_models"
     }
     
   ]
